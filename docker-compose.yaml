@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+  frontend:
+    image: vfarcic/devops-toolkit
+    restart: always
+    ports:
+    - "8080:80"
