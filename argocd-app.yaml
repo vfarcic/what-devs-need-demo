@@ -42,7 +42,7 @@ spec:
   syncPolicy:
     automated:
       selfHeal: true
-      prune: true
+      # prune: true
       allowEmpty: true
   ignoreDifferences:
   - group: devopstoolkitseries.com
