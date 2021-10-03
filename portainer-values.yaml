@@ -1,0 +1,10 @@
+service:
+  type: ClusterIP
+ingress:
+  enabled: true
+  annotations:
+    kubernetes.io/ingress.class: nginx
+  hosts:
+  - host: portainer.127.0.0.1.nip.io
+    paths:
+    - path: "/"
