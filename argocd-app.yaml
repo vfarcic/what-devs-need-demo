@@ -44,3 +44,10 @@ spec:
       selfHeal: true
       prune: true
       allowEmpty: true
+  ignoreDifferences:
+  - group: devopstoolkitseries.com
+    kind: ClusterClaim
+    jsonPointers:
+    - /metadata
+    - /spec/compositionUpdatePolicy
+    - /spec/resourceRef
